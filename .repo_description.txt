@@ -1,1 +1,0 @@
-Enhanced trading experience for Path of Exile 2 trade site. Features fuzzy search, item copy, and filter group duplication for Tampermonkey users.
