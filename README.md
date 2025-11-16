@@ -13,6 +13,3 @@ Enhanced trading experience for Path of Exile 2's trade site with fuzzy search, 
 3. Copy the contents of `PoE2-Better-Trade.js` into the editor.
 4. Save the script.
 5. Visit [Path of Exile 2 Trade](https://www.pathofexile.com/trade2/) and enjoy enhanced trading!
-
-## License
-MIT
