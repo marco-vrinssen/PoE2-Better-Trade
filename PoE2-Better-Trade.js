@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name         PoE2 Better Trade
-// @version      1.0
-// @description  Enhanced trading experience with fuzzy search, item copy, and filter duplication
-// @author       miyanko
-// @match        https://www.pathofexile.com/trade2/*
+// @namespace    https://github.com/marco-vrinssen/PoE2-Better-Trade
+// @version      1.0.0
+// @description  Fuzzy search, item copying, and filter duplication for Path of Exile 2 trade site
+// @author       marco-vrinssen
+// @match        *://*.pathofexile.com/trade2/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     // [unified script configuration for all features]
@@ -238,7 +241,7 @@
 
         handleCopy(row) {
             const itemHeader = row.querySelector('div.itemHeader.doubleLine') ??
-                             row.querySelector('div.itemHeader');
+                row.querySelector('div.itemHeader');
             const content = row.querySelector('div.content');
 
             if (!itemHeader || !content) {
